@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  background-color: #ae342d !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-links{
+  color: white!important;
+  text-decoration: none!important;
+  margin-right: 2vh;
+}
+
+.background-turquesa{
+  background-color: #6e3132;
+}
+
+.banner{
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vh;
+  color:white!important;
+  background-color: #6e3132!important;
+}
+
+.image-content{
+  width: 100%;
+  cursor: pointer;
+}
+
+.row-axis {
+  padding-bottom: 2vh;
+  overflow-x: auto!important;
+  flex-wrap: nowrap!important;
+}
+
+.col-row {
+  display: inline-block!important;
+  float: none;
+}
+
+.image-all{
+  position: relative;
+  display: grid;
+  align-items: center;
+  margin: 0 0.5vw;
+}
+
+.title-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-weight: bold;
+  margin : 0 12px;
+  font-size: 30px;
+  align-items: center;
+  width: calc(100% - 24px);
+  text-align: center;
+  z-index: -1;
+  transition: 0.1s ease;
+  height: 100%;
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.image-content:hover + .title-image{
+  z-index: 1;
+  cursor: pointer;
+}
+
+.title-image:hover{
+  z-index: 1;
+  cursor: pointer;
+}
+
+.header-gallery{
+  color: white;
+  text-align: center;
+}
+
+.radio-images{
+  display: none;
+}
+
+.image-description-image{
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  width: 100%;
+}
+
+.image-description{
+  color: white;
+}
+
+.image-description p {
+  padding-right:1vw;
+}
+
+.row-description{
+  background-color: #dbb27a;
+  padding: 4vh 0;
+  border-radius: 14px;
+}
+
+.descriptions-section{
+  padding-left: 2vw;
+  margin-bottom: 2vh;
+}
+
+.row-images{
+  background-color: #dbb27a;
+  padding: 1vh 2vw;
+  margin-bottom: 4vh;
+  border-radius: 14px;
+}
+
+.spinner-row{
+  height: 10rem;
+  width: 10rem;
+}
+
+.centered{
+  margin: 0 auto;
+}
